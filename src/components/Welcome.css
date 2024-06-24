@@ -1,0 +1,31 @@
+.welcome-container {
+  text-align: center;
+}
+.welcome-title,
+.welcome-description {
+  color: white;
+}
+
+.welcome-title {
+  margin-bottom: 0;
+  font-size: 1.8rem;
+}
+.welcome-description {
+  margin-top: 0.6rem;
+}
+
+.start-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  background-color: rgba(255, 255, 255, 0.365);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.start-btn:hover {
+  background-color: #4dd0e1;
+  color: #212121;
+}
